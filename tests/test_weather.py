@@ -54,6 +54,25 @@ def test_zero_hour_24_is_kept():
     assert reading.rain_mm == 0.0
 
 
+def test_hour_24_is_not_the_60_minute_or_today_total():
+    records = [
+        {
+            "Station_name": "苗栗",
+            "Station_ID": "C0E750",
+            "LAT": "24.565",
+            "LON": "120.821",
+            "RAIN": "1",
+            "NOW": "12",
+            "HOUR_24": "3",
+            "TIME": "2026/09/29 17:00",
+        }
+    ]
+
+    reading = nearest_station(records, MIAOLI_LAT, MIAOLI_LON)
+
+    assert reading.rain_mm == 3.0
+
+
 def test_hour_24_wins_over_legacy_rain():
     records = [
         {

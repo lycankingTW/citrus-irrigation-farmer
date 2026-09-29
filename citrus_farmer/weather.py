@@ -89,6 +89,7 @@ def nearest_station(
             best_distance = distance
     if best is None or best_distance is None:
         raise LookupError("附近沒有測站")
+    # HOUR_24 是 24 小時累積雨量。RAIN 是 60 分鐘，NOW 是本日累積，都不能拿來當這欄。
     rain = _float(_field(best, "HOUR_24", "H_24R"))
     return StationReading(
         name=str(_field(best, "Station_name", "name") or "農業氣象站"),
