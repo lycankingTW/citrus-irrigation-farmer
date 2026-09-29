@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "description": "苗栗地區柑橘園氣候資料",
+    "source": "中央氣象局",
+    "lastUpdated": "2024-12-19",
+    "location": {
+      "name": "苗栗縣公館鄉",
+      "latitude": 24.5,
+      "longitude": 120.8,
+      "elevation": 150
+    }
+  },
+  "monthlyAverages": {
+    "january": {
+      "temperature": { "min": 12, "max": 20, "avg": 16 },
+      "humidity": 75,
+      "rainfall": 45,
+      "windSpeed": 2.1,
+      "solarRadiation": 12.5,
+      "evapotranspiration": 2.8
+    },
+    "february": {
+      "temperature": { "min": 13, "max": 21, "avg": 17 },
+      "humidity": 78,
+      "rainfall": 65,
+      "windSpeed": 2.3,
+      "solarRadiation": 14.2,
+      "evapotranspiration": 3.1
+    },
+    "march": {
+      "temperature": { "min": 16, "max": 24, "avg": 20 },
+      "humidity": 76,
+      "rainfall": 85,
+      "windSpeed": 2.5,
+      "solarRadiation": 16.8,
+      "evapotranspiration": 3.8
+    },
+    "april": {
+      "temperature": { "min": 20, "max": 27, "avg": 23.5 },
+      "humidity": 74,
+      "rainfall": 120,
+      "windSpeed": 2.2,
+      "solarRadiation": 18.5,
+      "evapotranspiration": 4.5
+    },
+    "may": {
+      "temperature": { "min": 23, "max": 30, "avg": 26.5 },
+      "humidity": 76,
+      "rainfall": 180,
+      "windSpeed": 2.0,
+      "solarRadiation": 19.8,
+      "evapotranspiration": 5.2
+    },
+    "june": {
+      "temperature": { "min": 25, "max": 32, "avg": 28.5 },
+      "humidity": 78,
+      "rainfall": 220,
+      "windSpeed": 1.8,
+      "solarRadiation": 20.5,
+      "evapotranspiration": 5.8
+    },
+    "july": {
+      "temperature": { "min": 26, "max": 34, "avg": 30 },
+      "humidity": 77,
+      "rainfall": 180,
+      "windSpeed": 1.9,
+      "solarRadiation": 21.2,
+      "evapotranspiration": 6.2
+    },
+    "august": {
+      "temperature": { "min": 26, "max": 33, "avg": 29.5 },
+      "humidity": 78,
+      "rainfall": 200,
+      "windSpeed": 1.7,
+      "solarRadiation": 20.8,
+      "evapotranspiration": 6.0
+    },
+    "september": {
+      "temperature": { "min": 24, "max": 31, "avg": 27.5 },
+      "humidity": 76,
+      "rainfall": 140,
+      "windSpeed": 2.1,
+      "solarRadiation": 18.9,
+      "evapotranspiration": 5.1
+    },
+    "october": {
+      "temperature": { "min": 21, "max": 28, "avg": 24.5 },
+      "humidity": 72,
+      "rainfall": 45,
+      "windSpeed": 2.4,
+      "solarRadiation": 16.5,
+      "evapotranspiration": 4.2
+    },
+    "november": {
+      "temperature": { "min": 17, "max": 25, "avg": 21 },
+      "humidity": 71,
+      "rainfall": 25,
+      "windSpeed": 2.6,
+      "solarRadiation": 14.1,
+      "evapotranspiration": 3.4
+    },
+    "december": {
+      "temperature": { "min": 14, "max": 22, "avg": 18 },
+      "humidity": 73,
+      "rainfall": 35,
+      "windSpeed": 2.3,
+      "solarRadiation": 12.8,
+      "evapotranspiration": 2.9
+    }
+  },
+  "seasonalPatterns": {
+    "spring": {
+      "description": "春季回暖，降雨增加",
+      "irrigationFrequency": "中等",
+      "keyConsiderations": ["花芽分化", "新梢生長", "病蟲害防治"]
+    },
+    "summer": {
+      "description": "高溫多濕，蒸發散量大",
+      "irrigationFrequency": "頻繁",
+      "keyConsiderations": ["果實發育", "水分管理", "遮陰防護"]
+    },
+    "autumn": {
+      "description": "秋高氣爽，果實成熟",
+      "irrigationFrequency": "適中",
+      "keyConsiderations": ["果實品質", "採收準備", "樹勢調節"]
+    },
+    "winter": {
+      "description": "低溫少雨，樹體休眠",
+      "irrigationFrequency": "少量",
+      "keyConsiderations": ["休眠管理", "修剪作業", "土壤改良"]
+    }
+  },
+  "extremeEvents": {
+    "drought": {
+      "definition": "連續30天降雨量少於10mm",
+      "frequency": "每3-5年一次",
+      "management": "增加灌溉頻率，使用覆蓋材料"
+    },
+    "flood": {
+      "definition": "單日降雨量超過200mm",
+      "frequency": "每2-3年一次",
+      "management": "加強排水，防止根部浸水"
+    },
+    "heatWave": {
+      "definition": "連續3天最高溫超過35°C",
+      "frequency": "每年1-2次",
+      "management": "增加灌溉，設置遮陰網"
+    },
+    "coldSnap": {
+      "definition": "最低溫低於5°C",
+      "frequency": "每年1-2次",
+      "management": "防寒保護，減少灌溉"
+    }
+  },
+  "soilConditions": {
+    "dominant": "紅壤",
+    "characteristics": {
+      "texture": "壤土",
+      "ph": 5.8,
+      "organicMatter": 2.3,
+      "drainage": "良好",
+      "fieldCapacity": 0.28,
+      "wiltingPoint": 0.14
+    },
+    "recommendations": {
+      "amendments": ["有機質", "石灰", "磷肥"],
+      "management": ["深耕", "覆蓋", "輪作綠肥"]
+    }
+  },
+  "cropCalendar": {
+    "citrus": {
+      "flowering": "3-4月",
+      "fruitSet": "4-5月",
+      "fruitDevelopment": "5-9月",
+      "harvest": "10-12月",
+      "dormancy": "12-2月"
+    }
+  }
+}
