@@ -11,7 +11,7 @@ from dataclasses import dataclass
 MIAOLI_LAT = 24.5593
 MIAOLI_LON = 120.8214
 MIAOLI_NAME = "苗栗區農業改良場"
-API_URL = "https://data.moa.gov.tw/api/v1/AutoWeatherStationType/"
+API_URL = "https://data.moa.gov.tw/api/v1/AutoRainfallStationType/"
 API_KEY = "IKXAGW0DJ1G90FL4SJ5N364EM567QX"
 
 
